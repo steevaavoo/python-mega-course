@@ -66,3 +66,12 @@ print(mylen)
 # Then we can divide the sum by the length to get the mean
 mean = mysum / mylen
 print(mean)
+
+# Get the largest number in the student_grades list:
+max_value = max(student_grades)
+print(max_value)
+
+# Get number of occurrences of a given number - 10.0 in this case - in a list
+student_grades = [9.1, 8.8, 10.0, 7.7, 6.8, 8.0, 10.0, 8.1, 10.0, 9.9]
+number_of_tens = student_grades.count(10.0)
+print(number_of_tens)
