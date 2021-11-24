@@ -6,7 +6,7 @@ student_grades = {"Asya": 9.1, "Steve": 8.8, "Luke": 7.5}
 # You can then access them individually by the key:
 print(student_grades["Asya"])
 
-# A list is more appopriate when we only care about the numbers - such as a list of temperatures on a given day.
+# A list is more appropriate when we only care about the numbers - such as a list of temperatures on a given day.
 # So - how to calculate average of a dictionary - assuming values are numbers?
 # First, let's look at the methods available to the dictionary "dict" type:
 dir(dict)
